@@ -11,4 +11,7 @@ package perceptor.multicapa;
  */
 public class Formulas {
     
+    public void formula1(){
+
+    }
 }
