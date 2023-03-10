@@ -5,12 +5,18 @@
  */
 package perceptor.multicapa;
 
+import java.io.File;
+
 
 public class Principal 
 {
+    private Ejemplos ejemplos;
+    private Perceptor perceptor;
+    
     private void ejecutar()
     { 
-        
+        ejemplos = new Ejemplos("src/file/informacion.txt");
+        perceptor = new Perceptor(ejemplos.Entrenamiento,5);                
     }      
     
     public static void main(String[] args)
